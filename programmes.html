@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>FittGym Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">    
+</head>
+<body>
+<section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="programmes.html">PROGRAMMES</a></li>
+                    <li><a href="contactus.html">CONTACT US</a></li>                        
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i> 
+        </nav>
+        <h1>Our programmes</h1>
+</section>
+
+<!--programmes-->
+
+<section class="programmes">
+    <h1>Available Programmes </h1>
+    <p>Nutrition plays a vital role because we are what we eat. Health cannot be ignored because our body needs to be healthy to function correctly. Eating fruits and vegetables boosts one’s health. While eating junk food hurts our health. Regular exercises can help us to build a healthy and fit body that would be resistant to diseases
+    </p>
+
+    <div class="row">
+        <div class="programme-col">
+            <h3>Begginner</h3>
+            <p>A healthy body and mind are essential to achieve complete wellbeing. If we are healthy, we can resist our bodies from being attacked by germs. Our bodies are really sensitive and therefore, must be handled with necessary precautions. We can develop healthy habits like eating and sleeping on time to boost our overall health. This helps in becoming a healthier version of ourselves. Holistic growth can be achieved if we focus on all the aspects of our health. Such as nutrition, wellness, spirituality, and mental health. There are plenty of exercises that will boost our physical health and help us to become stronger. </p>
+        </div>
+        <div class="programme-col">
+            <h3>Intermediate</h3>
+            <p>Earlier it was believed that a healthy person is physically fit. This perception has changed, and now people believe that a healthy person is mentally and physically fit. Mental health and physical health can be inter-related in some cases. A relaxed mind can be achieved by meditating, and meditation, in turn, has a positive impact on physical health. It should be noted that physical health is not measured by the shape or size of a person. Even a thin person can be healthier than someone fatter.</p>
+        </div>
+        <div class="programme-col">
+            <h3>Expert</h3>
+            <p>The metabolism of the body is largely responsible for our health and fitness. A better metabolism would mean faster absorption of nutrients into our bodies. While a slower metabolism would mean a slower absorption of food. A higher metabolism rate can be achieved by keeping the body healthy. This is possible when we start taking care of our nutrition. Healthy nutrition is not only rich in vegetables and fruits, but it is balanced and has a moderate amount of everything in a balanced proportion.</p>
+        </div>
+    </div>
+
+</section>
+
+<!--Equipments-->
+
+<section class="equipment">
+    <h1>Our Equipments</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    <div class="row">
+        <div class="equipment-col">
+            <img src="images/pic35.jpg">
+            <h3>Inside Gym</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing, ipsum dolor sit amet, consectetur adipiscing</p>
+        </div>
+        <div class="equipment-col">
+            <img src="images/pic36.jpg">
+            <h3>Cardio equipments</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing, ipsum dolor sit amet, consectetur adipiscing</p>
+        </div>
+        <div class="equipment-col">
+            <img src="images/pic37.jpg">
+            <h3>Treadmill</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing, ipsum dolor sit amet, consectetur adipiscing</p>
+        </div>
+    </div>
+</section>
+
+<!--footer-->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made By <i class="fa fa-star-o"></i> Me</p>
+</section>
+
+
+
+<!--javascript for toogle menu-->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+<!--CDN Link to fontawesome-->
+<script src="https://use.fontawesome.com/d5c12e52c0.js"></script>
+
+</body>
+</html>
